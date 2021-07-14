@@ -52,11 +52,11 @@ export default function Home() {
             <span class="heading-highlight"> sou Ygor</span>
           </h1>
           <paragraph>
-            Motion<span className="highlight"> &amp;</span> Gráfico Designer
+          Design Gráfico<span className="highlight"> &amp;</span> Motion Design
             <br />
             <span class="highlight">Especialista</span> em criativos para
             {/* <br /> */}
-            <span class="highlight"> social medias</span>.
+            <span class="highlight"> social media</span>.
           </paragraph>
 
           {/* social media */}
