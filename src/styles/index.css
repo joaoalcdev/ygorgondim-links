@@ -222,7 +222,7 @@ a:hover {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  text-aligncenter: center;
+  text-align: center;
   align-items: center;
 }
 
