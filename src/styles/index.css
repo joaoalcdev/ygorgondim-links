@@ -487,6 +487,16 @@ a:hover {
   width: 4rem;
   box-shadow: 0 0 0 0.2rem var(--primary), 0 1rem 5rem -1.25rem var(--second);
   margin: 0 0 1rem;
+
+  transition: all 0.3s;
+}
+.profile-card__avatar:hover {
+  border-radius: 50%;
+  max-width: 100%;
+  height: auto;
+  width: 4rem;
+  box-shadow: 0 0 0 0.1rem var(--second), 0 1rem 1rem -1.25rem var(--second);
+  margin: 0 0 1rem;
 }
 
 /* track out */
