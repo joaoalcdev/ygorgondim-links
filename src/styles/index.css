@@ -18,7 +18,7 @@
   /* selection */
   --selection: #207a61;
   --text-selection: #d6d6d6;
-  
+
   --selection-offdark: #2bd6a5;
   --text-selection-offdark: #1f1e23;
 
@@ -28,11 +28,10 @@
   --button-text-hover: #192522;
   --button-hover-color: #16a57c;
 
+  --button-offdark-text-hover: #e2e2e2;
+  --grey-light-hover-button: #ffffff;
 
-  --button-offdark-text-hover:#e2e2e2;
-  --grey-light-hover-button:#ffffff;
-
-  --button-bg-darkoff:#16a57c;
+  --button-bg-darkoff: #16a57c;
   --button-offdark: #141318;
   /* social media */
   --socialmedia: #2db992;
@@ -87,13 +86,13 @@
   .link-grid__item {
     color: var(--socialmedia-text-color) !important;
   }
-  
+
   .link-grid__item:hover {
     color: var(--socialmedia-text-color-hover) !important;
   }
-  
+
   .link-grid__item:hover > .link-grid__icon {
-    fill:#141318 !important;
+    fill: #141318 !important;
   }
 
   .button {
@@ -105,19 +104,19 @@
     border-radius: 0.5rem;
     transition: color, background-color 0.2s ease-in-out;
   }
-  
+
   .button:hover {
     background-color: var(--button-bg-darkoff) !important;
     color: var(--button-text-color) !important;
   }
-  
+
   ::selection {
     background: var(--selection-offdark) !important;
     color: var(--text-selection-offdark) !important;
   }
   ::-moz-selection {
-    background: var(--selection-offdark)!important;
-    color: var(--text-selection-offdark)!important;
+    background: var(--selection-offdark) !important;
+    color: var(--text-selection-offdark) !important;
   }
 
   footer span {
