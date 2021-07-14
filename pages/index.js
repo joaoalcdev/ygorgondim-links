@@ -19,6 +19,7 @@ export default function Home() {
         <title>Ygor Gondim | Links</title>
         {/* top url color mobile ↓ */}
         <meta name="theme-color" content="#141318" media="(prefers-color-scheme: dark)"></meta>
+        <meta name="theme-color" content="#141318" media="(prefers-color-scheme: light)"></meta>
         <meta name="apple-mobile-web-app-capable" content="yes"></meta>
         <meta name="apple-mobile-web-app-status-bar-style" content="#141318"></meta>
         <meta name="msapplication-navbutton-color" content="#141318"></meta>
