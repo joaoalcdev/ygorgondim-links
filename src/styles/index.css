@@ -28,8 +28,12 @@
   --button-text-hover: #192522;
   --button-hover-color: #16a57c;
 
-  button-bg-darkoff:#16a57c;
-  --button-offdark: #f7f7f7;
+
+  --button-offdark-text-hover:#e2e2e2;
+  --grey-light-hover-button:#ffffff;
+
+  --button-bg-darkoff:#16a57c;
+  --button-offdark: #141318;
   /* social media */
   --socialmedia: #2db992;
   --socialmedia__hover: #0de7a9;
@@ -38,7 +42,7 @@
 
   /* colors system */
   --grey: #605d6b;
-  --grey-light: #e2e2e2;
+  --grey-light: #e9e9e9;
   --offwhite: #e2e2e2;
   --offdark: #1f1e23;
   --card-text-offdark: #f7f7f7;
@@ -93,8 +97,8 @@
   }
 
   .button {
-    background-color: var(--grey-light) !important;
-    color: var(--button-text) !important;
+    background-color: var(--button-color) !important;
+    color: var(--button-offdark) !important;
     padding: 0.5rem 1rem;
     font-weight: 600;
     display: inline-block;
@@ -103,8 +107,8 @@
   }
   
   .button:hover {
-    background-color: var(--button-hover) !important;
-    color: var(--button-offdark) !important;
+    background-color: var(--button-bg-darkoff) !important;
+    color: var(--button-text-color) !important;
   }
   
   ::selection {
