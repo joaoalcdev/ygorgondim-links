@@ -4,8 +4,6 @@ export default function Home() {
   return (
     <div className="flex flex-col items-center justify-center min-h-screen background">
       <Head>
-        {/* top url color mobile ↓ */}
-        <meta name="theme-color" content="#141318"></meta>
         {/* bundle fonts ↓ */}
         <link rel="preconnect" href="https://fonts.gstatic.com"></link>
         <link
@@ -19,6 +17,12 @@ export default function Home() {
         ></link>
         {/* url/title contents */}
         <title>Ygor Gondim | Links</title>
+        {/* top url color mobile ↓ */}
+        <meta name="theme-color" content="#141318" media="(prefers-color-scheme: dark)"></meta>
+        <meta name="apple-mobile-web-app-capable" content="yes"></meta>
+        <meta name="apple-mobile-web-app-status-bar-style" content="#141318"></meta>
+        <meta name="msapplication-navbutton-color" content="#141318"></meta>
+        {/* favicon */}
         <link rel="apple-touch-icon" sizes="180x180" href="favicon.ico"></link>
         <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png"></link>
         <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png"></link>
