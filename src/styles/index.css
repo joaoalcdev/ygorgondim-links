@@ -79,6 +79,14 @@ h5 {
   color: var(--heading-color);
 }
 
+img {
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+}
+
 ::selection {
   background: var(--selection);
   color: var(--text-selection);
@@ -92,6 +100,12 @@ a {
   text-decoration: none;
   color: var(--action);
   transition: color 0.2s ease-in-out;
+
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -o-user-select: none;
+  user-select: none;
 }
 
 a:hover {
@@ -206,7 +220,6 @@ a:hover {
   box-shadow: 0 4px 16px -16px var(--shadow);
   margin: 0 0 2rem;
   overflow: hidden;
-
 }
 .card-social {
   /* background-color: var(--card-color); */
@@ -217,7 +230,6 @@ a:hover {
 }
 
 .link-grid {
-
   margin: 0;
   padding: 0;
   list-style: none;
@@ -232,13 +244,11 @@ a:hover {
   height: 5rem;
   width: calc(100% - 2rem);
 
-
   padding-top: 1rem;
   padding-bottom: 1rem;
   /* padding-right: 0;
   padding-left: 0; */
 
-  
   margin-top: 1rem;
   margin-bottom: 1rem;
   margin-right: auto;
@@ -410,7 +420,6 @@ a:hover {
 
 /* track out */
 ::-webkit-scrollbar-track {
-  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
   background-color: var(--primary);
   border-radius: 10px;
 }
