@@ -70,16 +70,16 @@
 
 @media (prefers-color-scheme: light) {
   :root {
-    --background: var(--grey-light);
-    --text: var(--offdark);
-    --heading-color: var(--title-offdark);
+    --background: var(--grey-dark);
+    --text: var(--offwhite);
+    --heading-color: var(--title);
     --card-color: var(--primary);
     --action: var(--button-color);
     --button-hover: var(--button-hover-color);
     --button-text: var(--button-text-color);
-    --shadow: #000000;
+    --shadow: #000;
   }
-  .card {
+  /* .card {
     color: var(--card-text-offdark);
   }
 
@@ -125,7 +125,7 @@
   }
   footer span:hover {
     color: var(--button-hover-color);
-  }
+  } */
 }
 
 body,
