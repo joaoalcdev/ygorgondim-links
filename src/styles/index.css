@@ -10,13 +10,17 @@
   /* principal palette */
   --grey-dark: #1f1e23; /* background */
   --primary: #141318; /* principal color (card, social media, footer header) */
-  --second: #16d7a1; /* card title, border color (footer, header)*/
+  --second: #08b081; /* card title, border color (footer, header)*/
 
   --title: #d6d6d6;
+  --title-offdark: #1f1e23;
 
   /* selection */
   --selection: #207a61;
   --text-selection: #d6d6d6;
+  
+  --selection-offdark: #2bd6a5;
+  --text-selection-offdark: #1f1e23;
 
   /* button settings */
   --button-color: #0de7a9;
@@ -24,6 +28,8 @@
   --button-text-hover: #192522;
   --button-hover-color: #16a57c;
 
+  button-bg-darkoff:#16a57c;
+  --button-offdark: #f7f7f7;
   /* social media */
   --socialmedia: #2db992;
   --socialmedia__hover: #0de7a9;
@@ -32,8 +38,10 @@
 
   /* colors system */
   --grey: #605d6b;
-  --grey-light: #edebeb;
-  --offwhite: #f7f7f7;
+  --grey-light: #e2e2e2;
+  --offwhite: #e2e2e2;
+  --offdark: #1f1e23;
+  --card-text-offdark: #f7f7f7;
 
   /* layout system */
   --heading-color: var(--primary);
@@ -54,6 +62,66 @@
     --button-hover: var(--button-hover-color);
     --button-text: var(--button-text-color);
     --shadow: #000;
+  }
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --background: var(--grey-light);
+    --text: var(--offdark);
+    --heading-color: var(--title-offdark);
+    --card-color: var(--primary);
+    --action: var(--button-color);
+    --button-hover: var(--button-hover-color);
+    --button-text: var(--button-text-color);
+    --shadow: #000000;
+  }
+  .card {
+    color: var(--card-text-offdark);
+  }
+
+  .link-grid__item {
+    color: var(--socialmedia-text-color) !important;
+  }
+  
+  .link-grid__item:hover {
+    color: var(--socialmedia-text-color-hover) !important;
+  }
+  
+  .link-grid__item:hover > .link-grid__icon {
+    fill:#141318 !important;
+  }
+
+  .button {
+    background-color: var(--grey-light) !important;
+    color: var(--button-text) !important;
+    padding: 0.5rem 1rem;
+    font-weight: 600;
+    display: inline-block;
+    border-radius: 0.5rem;
+    transition: color, background-color 0.2s ease-in-out;
+  }
+  
+  .button:hover {
+    background-color: var(--button-hover) !important;
+    color: var(--button-offdark) !important;
+  }
+  
+  ::selection {
+    background: var(--selection-offdark) !important;
+    color: var(--text-selection-offdark) !important;
+  }
+  ::-moz-selection {
+    background: var(--selection-offdark)!important;
+    color: var(--text-selection-offdark)!important;
+  }
+
+  footer span {
+    color: var(--button-color);
+    transition: 0.2s;
+  }
+  footer span:hover {
+    color: var(--button-hover-color);
   }
 }
 
