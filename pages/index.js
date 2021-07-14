@@ -5,7 +5,7 @@ export default function Home() {
     <div className="flex flex-col items-center justify-center min-h-screen background">
       <Head>
         {/* top url color mobile ↓ */}
-        <meta name="theme-color" content="#000000"></meta>
+        <meta name="theme-color" content="#141318"></meta>
         {/* bundle fonts ↓ */}
         <link rel="preconnect" href="https://fonts.gstatic.com"></link>
         <link
@@ -29,7 +29,7 @@ export default function Home() {
           <a href="https://www.instagram.com/ygorgondim/" target="_blank">
             <img
               class="profile-card__avatar"
-              src="https://lh3.googleusercontent.com/WyHsJ7qkgSjCvbCAuNNfLsNdS7X1DhvHAzHGOS_xyoNvFswpfnWBfsRdNsbycPrEZ5ir0g8T3x7oIrvfkwj8M9tZUPb8h2NsECHLsGea7jkkSnKsGt40Jh6-yRwM3uLKfdz6cMIL4tpVBvN7on3ypTuO7pc2GCMw2Wm0nZZecGK4aEvXeVHqnYVCLeUVz6K0ys8oYVhixjXVCLIqlN1fn1fzbgPDsiAIQIkJBMkHt4Rpz5nfrIRQnOLYWkDx_N4HMwFx1dkG-y7FbhYAlpBVrga2LQZoGzzHZViU-mgObrIuT0jhc5YJtfeJ7tF_qxgVJt_rSTW_MD4f89Fc3yMNoucGG_9VApinftpj1C9uowa4H-GJIIrTuxFXe6VcsUxAdDXK5nxTyOLVFsAuTbkclbnk-XPcDARDPvxLuJXHqwHLNWVByCGz1dK96wX-Em3CM6nc99mvL65mVcJDSs7M-fzEl6g9s8kne7IzFCUy4J1y7Tn3f1f_jc1PB18mY3hJqNfMl4KmykT1BJqb_kL1AungCzcvAHNbdSxuJiS6bcYYAaG-z-o2d19aOvbzgFPo9_iGq2iSHhUfDjmHuBeFUUmB46JC99BW-N2DKK_vawHRVPkzWpgV4vH_du_X0f5UKh1IdXvPqBbZc5pKRFZ6XZ235VBPglnTh6pAkMF-a4pUn76CBROwap6B3z6IWzzf--5zi4Ds7UofIBse_skEr4o=s320-no?authuser=0"
+              src="ygorprofile.png"
               alt="Ygor Gondim Profile"
             />
           </a>
@@ -286,7 +286,7 @@ export default function Home() {
                 <span class="highlight">.</span>
               </p>
               <p class="resource__button">
-                <a class="button" href="" target="_blank">
+                <a class="button" href="#">
                   Obter Conteúdo
                 </a>
               </p>
