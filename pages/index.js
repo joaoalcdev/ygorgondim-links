@@ -28,6 +28,7 @@ export default function Home() {
         <div class="profile-card__info">
           <a href="https://www.instagram.com/ygorgondim/" target="_blank">
             <img
+              draggable="false"
               class="profile-card__avatar"
               src="ygorprofile.png"
               alt="Ygor Gondim Profile"
@@ -241,6 +242,7 @@ export default function Home() {
               class="resource__img"
               src="powertext.jpeg"
               alt="Imagem Site Power Text"
+              draggable="false"
             ></img>
             <div class="resource__container">
               <h3 class="sub-heading resource__title">
@@ -248,6 +250,7 @@ export default function Home() {
                   class="resource__icon"
                   src="powertext__logo.jpeg"
                   alt=">Logo Site Power Text"
+                  draggable="false"
                 ></img>
                 Power Text
               </h3>
@@ -270,6 +273,7 @@ export default function Home() {
               class="resource__img"
               src="figma.png"
               alt="Background figma wallpaper"
+              draggable="false"
             ></img>
             <div class="resource__container">
               <h3 class="sub-heading resource__title">
@@ -277,6 +281,7 @@ export default function Home() {
                   class="resource__icon"
                   src="figma-icon.png"
                   alt="Figma logo"
+                  draggable="false"
                 ></img>
                 Figma
               </h3>
