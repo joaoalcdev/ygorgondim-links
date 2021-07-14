@@ -274,7 +274,7 @@ export default function Home() {
             </div>
           </article>
 
-          <h2 class="heading heading-highlight">Downloads</h2>
+          {/* <h2 class="heading heading-highlight">Downloads</h2>
           <article class="card resource">
             <img
               class="resource__img"
@@ -303,7 +303,7 @@ export default function Home() {
                 </a>
               </p>
             </div>
-          </article>
+          </article> */}
 
           {/* <h2 class="heading heading-highlight">Lorem</h2>
           <article class="card resource">
