@@ -60,7 +60,7 @@ export default function Home() {
             <img
               draggable="false"
               class="profile-card__avatar"
-              src="ygorprofile.png"
+              src="ygorprofile.jpeg"
               alt="Ygor Gondim Profile"
             />
           </a>
@@ -267,36 +267,6 @@ export default function Home() {
             </li> */}
           </ul>
 
-          <h2 class="heading heading-highlight">Power Text</h2>
-          <article class="card resource">
-            <img
-              class="resource__img"
-              src="powertext.jpeg"
-              alt="Imagem Site Power Text"
-              draggable="false"
-            ></img>
-            <div class="resource__container">
-              <h3 class="sub-heading resource__title">
-                <img
-                  class="resource__icon"
-                  src="powertext__logo.jpeg"
-                  alt=">Logo Site Power Text"
-                  draggable="false"
-                ></img>
-                Power Text
-              </h3>
-              <p>
-                Produza todo seu texto dento da plataforma. Depois é só copiar e
-                colar na legenda do seu post 😉
-                <span class="highlight">.</span>
-              </p>
-              <p class="resource__button">
-                <a class="button" href="https://powertext.net/" target="_blank">
-                  Acessar Plataforma
-                </a>
-              </p>
-            </div>
-          </article>
 
           <h2 class="heading heading-highlight">Downloads</h2>
           <article class="card resource">
@@ -328,6 +298,37 @@ export default function Home() {
                   target="_blank"
                 >
                   Fazer Download
+                </a>
+              </p>
+            </div>
+          </article>
+
+          <h2 class="heading heading-highlight">Power Text</h2>
+          <article class="card resource">
+            <img
+              class="resource__img"
+              src="powertext.jpeg"
+              alt="Imagem Site Power Text"
+              draggable="false"
+            ></img>
+            <div class="resource__container">
+              <h3 class="sub-heading resource__title">
+                <img
+                  class="resource__icon"
+                  src="powertext__logo.jpeg"
+                  alt=">Logo Site Power Text"
+                  draggable="false"
+                ></img>
+                Power Text
+              </h3>
+              <p>
+                Produza todo seu texto dento da plataforma. Depois é só copiar e
+                colar na legenda do seu post 😉
+                <span class="highlight">.</span>
+              </p>
+              <p class="resource__button">
+                <a class="button" href="https://powertext.net/" target="_blank">
+                  Acessar Plataforma
                 </a>
               </p>
             </div>
