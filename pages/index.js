@@ -18,16 +18,37 @@ export default function Home() {
         {/* url/title contents */}
         <title>Ygor Gondim | Links</title>
         {/* top url color mobile ↓ */}
-        <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#141318"></meta>
-        <meta name="theme-color" media="(prefers-color-scheme: light)" content="#141318"></meta>
+        <meta
+          name="theme-color"
+          media="(prefers-color-scheme: dark)"
+          content="#141318"
+        ></meta>
+        <meta
+          name="theme-color"
+          media="(prefers-color-scheme: light)"
+          content="#141318"
+        ></meta>
         <meta name="theme-color" content="#141318"></meta>
         <meta name="apple-mobile-web-app-capable" content="yes"></meta>
-        <meta name="apple-mobile-web-app-status-bar-style" content="#141318"></meta>
+        <meta
+          name="apple-mobile-web-app-status-bar-style"
+          content="#141318"
+        ></meta>
         <meta name="msapplication-navbutton-color" content="#141318"></meta>
         {/* favicon */}
         <link rel="apple-touch-icon" sizes="180x180" href="favicon.ico"></link>
-        <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png"></link>
-        <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png"></link>
+        <link
+          rel="icon"
+          type="image/png"
+          sizes="32x32"
+          href="favicon-32x32.png"
+        ></link>
+        <link
+          rel="icon"
+          type="image/png"
+          sizes="16x16"
+          href="favicon-16x16.png"
+        ></link>
         <link rel="manifest" href="site.webmanifest"></link>
       </Head>
 
@@ -52,7 +73,8 @@ export default function Home() {
             <span class="heading-highlight"> sou Ygor</span>
           </h1>
           <paragraph>
-          Design Gráfico<span className="highlight"> &amp;</span> Motion Design
+            Design Gráfico<span className="highlight"> &amp;</span> Motion
+            Design
             <br />
             <span class="highlight">Especialista</span> em criativos para
             {/* <br /> */}
@@ -271,6 +293,41 @@ export default function Home() {
               <p class="resource__button">
                 <a class="button" href="https://powertext.net/" target="_blank">
                   Acessar Plataforma
+                </a>
+              </p>
+            </div>
+          </article>
+
+          <h2 class="heading heading-highlight">Downloads</h2>
+          <article class="card resource">
+            <img
+              class="resource__img"
+              src="emojisbg.png"
+              alt="Imagem Fluent Emojis"
+              draggable="false"
+            ></img>
+            <div class="resource__container">
+              <h3 class="sub-heading resource__title">
+                <img
+                  class="resource__icon"
+                  src="microsoft2.png"
+                  alt=">Logo Microsoft"
+                  draggable="false"
+                ></img>
+                Fluent Emojis
+              </h3>
+              <p>
+                Primeiro pack dos novos emojis da microsoft. Disponíveis para
+                download
+                <span class="highlight">.</span>
+              </p>
+              <p class="resource__button">
+                <a
+                  class="button"
+                  href="https://drive.google.com/drive/folders/1UN4qQaqI3ZJxBF3E4kLf5mVw3FuvHHsv?usp=sharing"
+                  target="_blank"
+                >
+                  Fazer Download
                 </a>
               </p>
             </div>
