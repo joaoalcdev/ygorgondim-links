@@ -6,7 +6,7 @@
 </p>
 
 <h1 align="center">
-    <img alt="Website" src="./src/assets/images/cover-(01).svg" />
+    <img alt="Website" src="./public/cover-(01).png" />
 </h1>
 
 <br>
