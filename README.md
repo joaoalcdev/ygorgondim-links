@@ -1,29 +1,58 @@
-# Next.js + Tailwind CSS Example
+<p align="center">
+  <img alt="START - English Academy" src="./src/assets/images/logo-start.svg" width="160px">
+</p>
 
-This example shows how to use [Tailwind CSS](https://tailwindcss.com/) [(v2.2)](https://blog.tailwindcss.com/tailwindcss-2-2) with Next.js. It follows the steps outlined in the official [Tailwind docs](https://tailwindcss.com/docs/guides/nextjs).
+<p align="center">
+</p>
 
-It uses the new [`Just-in-Time Mode`](https://tailwindcss.com/docs/just-in-time-mode) for Tailwind CSS.
+<h1 align="center">
+    <img alt="START - English Academy" src="./src/assets/images/cover-(01).svg" />
+    <img alt="START - English Academy" src="./src/assets/images/cover-(02).svg" />
+    <img alt="START - English Academy" src="./src/assets/images/cover-(03).svg" />
+</h1>
 
-## Preview
+<br>
 
-Preview the example live on [StackBlitz](http://stackblitz.com/):
+## 🧪 Technologies
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/vercel/next.js/tree/canary/examples/with-tailwindcss)
+This project was developed with the following technologies:
 
-## Deploy your own
+- [React](https://reactjs.org)
+- [TailwindCSS](https://tailwindcss.com/docs/installation)
+- [NodeJS](https://nodejs.org/en/)
+- [NextJS](https://nextjs.org/)
+- More other technologies...
 
-Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=next-example):
+## 🚀 How to run:
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/vercel/next.js/tree/canary/examples/with-tailwindcss&project-name=with-tailwindcss&repository-name=with-tailwindcss)
-
-## How to use
-
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init) or [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/) to bootstrap the example:
+Clone the project and access its folder.
 
 ```bash
-npx create-next-app --example with-tailwindcss with-tailwindcss-app
-# or
-yarn create next-app --example with-tailwindcss with-tailwindcss-app
+$ git clone https://github.com/joaoalcdev/ygorgondim-links
+$ cd ygorgondim-links
 ```
 
-Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
+To start it, follow the steps below:
+
+```bash
+# Install the dependencies
+$ yarn
+
+# Start the project
+$ yarn start or yarn dev
+```
+The app is available in your browser by address -> http://localhost:3000.
+
+## 💻 Project Desc
+
+[Ygor Gondim | Links](https://ygorgondim-links.vercel.app/) was developed as a proposal for a type of "linktree".
+
+The project was developed by [João Alcântara](https://github.com/joaoalcdev).
+
+## 📝 License
+
+This project is under MIT license. See the file [LICENSE](./LICENSE) for more details.
+
+---
+
+Made with 💜 by [João Alcântara](https://github.com/joaoalcdev) 👋🏻
